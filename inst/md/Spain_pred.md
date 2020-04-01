@@ -1,6 +1,6 @@
 ## ¿Cuándo alcanzará España el pico de contagios por covid19?
 
-Este es un script de python para modelizar la curva de contagios de covid19 en Argentina. 
+Este es un script de python para modelizar la curva de contagios de covid19 en España. 
 
 
 ```python
