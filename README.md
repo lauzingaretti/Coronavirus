@@ -6,3 +6,5 @@ https://github.com/CSSEGISandData/COVID-19.
 
 Los análisis están disponibles en https://lauzingaretti.github.io/Coronavirus/ 
 
+- [1. Arg](https://github.com/lauzingaretti/Coronavirus/blob/master/inst/md/Arg.md)
+
