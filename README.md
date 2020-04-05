@@ -17,6 +17,11 @@ El caso Chino es conocido por todos, sin embargo -y a la luz de los datos de otr
 - [3. Estimación de la evolución de casos en USA](https://github.com/lauzingaretti/Coronavirus/blob/master/inst/md/USA.md)
 - [4. Estimación de la evolución de casos en China](https://github.com/lauzingaretti/Coronavirus/blob/master/inst/md/China.md)
 
+El siguiente enlace contiene un pequeño informe que nos ayuda a pensar sobre el número total de casos de Covid-19 en Argentina a día de hoy.
+
+- [5. Estimación de los casos no reportados de covid-19 en Argentina]
+(https://github.com/lauzingaretti/Coronavirus/blob/master/inst/md/covid19casosestimados.md)
+
 
 
 
