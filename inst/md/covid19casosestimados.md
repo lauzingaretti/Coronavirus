@@ -4,7 +4,6 @@
 
 El gobierno argentino informa diariamente la evolución del covid-19 a través de la página web del ministerio de salud, https://www.argentina.gob.ar/coronavirus/informe-diario. En el informe matutino del día de hoy, reporta 1451 casos y 44 muertes. 
 
-<img src="https://render.githubusercontent.com/render/math?math=e^{i +\pi} =x+1">
 
 Sin embargo, el número de casos de covid-19 está subestimado en la mayoría de los países porque no se hacen suficientes exámenes y se sabe que muchos infectados son asintomáticos. Ante este contexto, cabe preguntarse si es posible saber aproximadamente cuál es el número real de infectados. La **matemática** puede ayudarnos.
 
@@ -47,12 +46,23 @@ Usando los casos de defunciones a día de hoy y los números de Corea, podemos e
 
 Lo que da un total de 7063 casos. Sin embargo, estos no son infectados actuales, ¿por qué? la respuesta es muy simple: porque transcurre un tiempo entre que una persona se infecta hasta que se muere, este tiempo está estimado entre 2 y 4 semanas. Supongamos que son 21 días en promedio, es decir que este número puede corresponder a 21 días atrás (15 de marzo aproximadamente). 
 
-La otra clave para saber los enfermos a día de hoy es el tiempo que tarda la enfermedad en duplicarse. Hay algunos trabajos científicos que establecen ese tiempo medio en 6.2 días sin medidas de confinamiento. Dado que en Argentina el confinamiento se aplicó desde hace ya casi 3 semanas, vamos suponer que ese tiempo medio sea 12, es decir que la enfermedad tarda 12 días en duplicarse. Entonces, para saber cuántos enfermos aproximados hay actualmente deberíamos multiplicar 7063 por $2^\frac{21}{12}$, lo que arroja un total de 23757 casos: más que 16 veces más que los casos actualmente reportados! 
+La otra clave para saber los enfermos a día de hoy es el tiempo que tarda la enfermedad en duplicarse. Hay algunos trabajos científicos que establecen ese tiempo medio en 6.2 días sin medidas de confinamiento. Dado que en Argentina el confinamiento se aplicó desde hace ya casi 3 semanas, vamos suponer que ese tiempo medio sea 12, es decir que la enfermedad tarda 12 días en duplicarse. Entonces, para saber cuántos enfermos aproximados hay actualmente deberíamos multiplicar 7063 por
 
-Supongamos que el tiempo medio que transcurre entre que una persona se infecta y se muere son 14 días, entonces estos números corresponderían a 14 días atrás, y el número de infectados hoy sería de $7063 \times 2^\frac{14}{12}$, que es igual a 15855 (sí, 10 veces más que los reportados actualmente!). 
 
-Sin embargo, si miramos cuidadosamente los datos reportados como positivos en Argentina, la enfermedad se está duplicando cada 6 días aproximadamente. Es decir, podríamos utilizar perfectamente el 6.2 reportados por algunos trabajos científicos y estimar los posibles casos a día de hoy como 
-$7063 \times 2^\frac{14}{6.2}$ o $7063 \times 2^\frac{21}{6.2}$ lo que nos da un total de 33785 y 73893 casos respectivamente. 
+<img src="https://render.githubusercontent.com/render/math?math=2^\frac{21}{12}">
+
+Lo que arroja un total de 23757 casos: más que 16 veces más que los casos actualmente reportados! 
+
+Podemos jugar con la fórmula general, 
+
+<img src="https://render.githubusercontent.com/render/math?math=2^\frac{days}{dup}">
+
+Dónde days indica el período medio de la enfermedad y dup el tiempo que tarda en duplicarse. 
+
+
+Supongamos que el tiempo medio que transcurre entre que una persona se infecta y se muere son 14 días, entonces estos números corresponderían a 14 días atrás, y el número de infectados (reemplazandos days por 14 y dup por 12) hoy sería de $15855$ (sí, 10 veces más que los reportados actualmente!). 
+
+Sin embargo, si miramos cuidadosamente los datos reportados como positivos en Argentina, la enfermedad se está duplicando cada 6 días aproximadamente. Es decir, podríamos utilizar perfectamente dup=6.2 reportados por algunos trabajos científicos y estimar los posibles casos a día de hoy usando days=14/21 y dup=6.2, lo que nos da un total de 33785 y 73893 casos respectivamente. 
 
 Es decir, en el escenario más favorable (que la enfermedad se duplique cada 12 días y que el período infeccioso dure sólo 14 días), el número real de casos rondaría los *15000*, en tanto que en el escenario más desfavorable (que la enfermedad se duplique cada 6.2 días y la enfermedad tenga un período de duración de 21 días), el número de casos sería mayor a *70000*. Sin embargo, en base a las evidencias que disponemos, lo más razonable sería suponer un período medio de 14 días y una duplicación de entre 6.2  a 10 días, lo que arroja un total de entre *18639* y *33785* casos. 
 
