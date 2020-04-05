@@ -26,7 +26,7 @@ La siguiente tabla, nos muestra el porcentaje de muertes en Corea del sur por fr
 |:----:|--|-----|-----|-----|-----|---|
 |0  | 0.11  | 0.09  | 0.37  | 1.51 | 5.34 |10.84 |
 
-Esto significa que en Corea murieron el 10.84\% de las personas infectadas mayores a 80 años, o el 5.34\% de los infectados de entre 70 y 80 años, etc. Dado que en Corea del Sur se realizaron 5 cada 1000 habitantes (0.5\%), podemos considerar que estos datos son fiables para estimar incidencias en otros países. 
+Esto significa que en Corea murieron el 10.84\% de las personas infectadas mayores a 80 años, o el 5.34\% de los infectados de entre 70 y 80 años, etc. Dado que en Corea del Sur se realizaron 5 tests cada 1000 habitantes (0.5\%), podemos considerar que estos datos son fiables para estimar incidencias en otros países. 
 
 En el informe del ministerio de salud de la nación Argentina del día de hoy se reportan 1451 casos y 7888 descartes, lo que indica que se hicieron 9339 tests y que el porcentaje de positivos entre los test es del 15.53\% (alrededor de 1 de cada 6 test que se hacen da positivo). Estos datos nos permiten suponer que hay un claro sesgo en el número real de casos: se están haciendo test sólo a casos altamente sospechosos. Además, si nos detenemos en el número de test por habitantes, en Argentina se hicieron 2 test por 10000 habitantes a día de hoy, cuando en Corea fueron 50 por igual número de personas.
 
