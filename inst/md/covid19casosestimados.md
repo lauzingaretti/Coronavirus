@@ -60,7 +60,7 @@ Podemos jugar con la fórmula general,
 Dónde days indica el período medio de la enfermedad y dup el tiempo que tarda en duplicarse. 
 
 
-Supongamos que el tiempo medio que transcurre entre que una persona se infecta y se muere son 14 días, entonces estos números corresponderían a 14 días atrás, y el número de infectados (reemplazandos days por 14 y dup por 12) hoy sería de $15855$ (sí, 10 veces más que los reportados actualmente!). 
+Supongamos que el tiempo medio que transcurre entre que una persona se infecta y se muere son 14 días, entonces estos números corresponderían a 14 días atrás, y el número de infectados (reemplazandos days por 14 y dup por 12) hoy sería de 15855 (sí, 10 veces más que los reportados actualmente!). 
 
 Sin embargo, si miramos cuidadosamente los datos reportados como positivos en Argentina, la enfermedad se está duplicando cada 6 días aproximadamente. Es decir, podríamos utilizar perfectamente dup=6.2 reportados por algunos trabajos científicos y estimar los posibles casos a día de hoy usando days=14/21 y dup=6.2, lo que nos da un total de 33785 y 73893 casos respectivamente. 
 
