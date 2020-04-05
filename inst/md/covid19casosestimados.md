@@ -4,7 +4,7 @@
 
 El gobierno argentino informa diariamente la evolución del covid-19 a través de la página web del ministerio de salud, https://www.argentina.gob.ar/coronavirus/informe-diario. En el informe matutino del día de hoy, reporta 1451 casos y 44 muertes. 
 
-![formula](https://render.githubusercontent.com/render/math?math=e^{i \pi} = -1)
+<img src="https://render.githubusercontent.com/render/math?math=e^{i +\pi} =x+1">
 
 Sin embargo, el número de casos de covid-19 está subestimado en la mayoría de los países porque no se hacen suficientes exámenes y se sabe que muchos infectados son asintomáticos. Ante este contexto, cabe preguntarse si es posible saber aproximadamente cuál es el número real de infectados. La **matemática** puede ayudarnos.
 
