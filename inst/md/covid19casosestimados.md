@@ -55,7 +55,7 @@ Lo que arroja un total de 23757 casos: más que 16 veces más que los casos actu
 
 Podemos jugar con la fórmula general, 
 
-<img src="https://render.githubusercontent.com/render/math?math=2^\frac{days}{dup}">
+<img src="https://render.githubusercontent.com/render/math?math=2^\frac{days}{dup}\times7063=CasosActuales">
 
 Dónde days indica el período medio de la enfermedad y dup el tiempo que tarda en duplicarse. 
 
