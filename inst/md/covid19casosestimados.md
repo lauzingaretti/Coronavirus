@@ -1,4 +1,4 @@
-### ¿Qué dicen las matemáticas sobre el covid-19 en Argentina?
+# ¿Qué dicen las matemáticas sobre el covid-19 en Argentina?
 
 ## ¿Cuántos casos de covid-19 hay en Argentina a día de hoy (5-4-2020)?
 
