@@ -4,9 +4,9 @@ Uno de los mayores problemas de casi todos los países del mundo ante la epidemi
 
 En este blog usaré el caso argentino para ilustrar una vía de detección de estos casos. 
 
-## ¿Cuántos casos de covid-19 hay en Argentina a día de hoy (5-4-2020)?
+## ¿Cuántos casos de covid-19 hay en Argentina a día de hoy (6-4-2020)?
 
-El gobierno argentino informa diariamente la evolución del covid-19 a través de la página web del ministerio de salud, https://www.argentina.gob.ar/coronavirus/informe-diario. En el informe matutino del día de hoy, reporta 1451 casos y 44 muertes. 
+El gobierno argentino informa diariamente la evolución del covid-19 a través de la página web del ministerio de salud, https://www.argentina.gob.ar/coronavirus/informe-diario. En el informe vespertino del día de ayer (5-6-2020), reporta  1554  casos y 46 muertes. 
 
 
 Sin embargo, el número de casos de covid-19 está subestimado en la mayoría de los países porque no se hacen suficientes exámenes y  muchos infectados son asintomáticos. Ante este contexto, cabe preguntarse si es posible saber aproximadamente cuál es el número real de infectados. La **matemática** puede ayudarnos.
@@ -18,9 +18,9 @@ La siguiente tabla, arroja el número de defunciones en Argentina por rango de e
 
 |<30|30-39|40-49|50-59|60-69|70-80|>80|
 |:----:|--|-----|-----|-----|-----|---|
-|0  | 0   | 3  | 10   | 11  | 12  | 8 |
+|0  | 0   | 3  | 10  | 12  | 13  | 8 |
 
-Un dato curioso es que en Argentina la cantidad de muertos entre 40 y 70 años es muy alta: asciendiendo al 55\% (son 24 personas). Esto es un indicio de que hay mucha más gente infectada en esta franja etárea y no está reportada, ¿por qué podemos decir esto? La proporción de defunciones en Corea del Sur puede darnos una pista. 
+Un dato curioso es que en Argentina la cantidad de muertos entre 40 y 70 años es muy alta: asciendiendo al 55\% (son 25 personas). Esto es un indicio de que hay mucha más gente infectada en esta franja etárea y no está reportada, ¿por qué podemos decir esto? La proporción de defunciones en Corea del Sur puede darnos una pista. 
 
 ## Porcentaje de muertes en Corea por franja etárea 
 
